@@ -9,6 +9,16 @@
 <body>
     <<h1>Aprendiendo Git y GitHub en ESINTEC</h1>
     <p>Estamos aprendiendo Git y GitHub en ESINTEC.</p>
-    <button>Haz clic aquí</button>
+    <button id="btnSaludo">Haz clic aquí</button>
+
+    <script>
+        const botonSaludo = document.getElementById("btnSaludo");
+
+        function mostrarSaludo() {
+            alert("¡Bienvenido al proyecto Git y GitHub de ESINTEC!");
+        }
+
+        botonSaludo.addEventListener("click", mostrarSaludo);
+    </script>
 </body>
 </html>

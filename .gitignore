@@ -1,0 +1,19 @@
+
+# Dependencias de proyectos JavaScript
+node_modules/
+
+# Archivos de entorno y credenciales locales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpeta de compilación
+dist/
